@@ -1,14 +1,14 @@
-# VaaniBridge AI — Marathi to English Voice Intelligence Platform
+# VaaniBridge AI - Marathi to English Voice Intelligence Platform
  
 VaaniBridge ("Vaani" = voice, "Bridge" = connection) is a full-stack AI application that understands spoken Marathi and responds in English combining speech recognition, machine translation, and AI-generated answers into a single, production-style pipeline.
  
 The app supports **two core capabilities**:
  
-**1. Translation** — a Marathi sentence spoken by the user is translated into English.
+**1. Translation** - a Marathi sentence spoken by the user is translated into English.
 > Marathi: "मला उद्या पुण्याला जायचं आहे."
 > English: "I want to go to Pune tomorrow."
  
-**2. Question Answering** — if the user asks a question in Marathi, the app doesn't just translate the question — it generates and returns the **answer**, in English.
+**2. Question Answering** - if the user asks a question in Marathi, the app doesn't just translate the question - it generates and returns the **answer**, in English.
 > Marathi question: "पुण्यात कोणती प्रसिद्ध ठिकाणं आहेत?"
 > English answer: "Some famous places in Pune include Shaniwar Wada, Aga Khan Palace, and Sinhagad Fort."
  
@@ -55,11 +55,11 @@ Browser mic → Audio file → FastAPI backend → OpenAI API (speech-to-text)
  
 ## 🛠️ Tech Stack
  
-- **Python** — core backend language
-- **FastAPI** — REST API framework with built-in request validation and auto-generated docs
-- **OpenAI API** — speech-to-text, translation, and text-to-speech
+- **Python** - core backend language
+- **FastAPI** - REST API framework with built-in request validation and auto-generated docs
+- **OpenAI API** - speech-to-text, translation, and text-to-speech
 - **HTML, CSS, JavaScript** — frontend interface and microphone/API integration
-- **SQLite** — lightweight storage for translation history (migratable to PostgreSQL for production)
+- **SQLite** - lightweight storage for translation history (migratable to PostgreSQL for production)
 ---
   
 ## 🚀 Getting Started
